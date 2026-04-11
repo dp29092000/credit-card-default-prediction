@@ -61,7 +61,7 @@ Predict whether a credit card customer will default on their next payment using 
     streamlit run app.py
 
 ## Live Demo
-[Link to be added after Streamlit Cloud deployment]
+https://credit-card-default-prediction-j9hkbfpmn5hmoswwlujodp.streamlit.app/
 
 ## Author
 **Prasanna D**  
