@@ -10,15 +10,14 @@ Predict whether a credit card customer will default on their next payment using 
 - **Environment:** Google Colab, VS Code
 
 ## Project Structure
-credit-card-default-prediction/
-├── app.py                  # Home page
-├── pages/
-│   ├── 1_EDA.py           # Exploratory Data Analysis
-│   ├── 2_Model_Performance.py  # Model comparison and metrics
-│   └── 3_Predict.py       # Live prediction interface
-├── xgb_fine_tuned.pkl     # Saved final model
-├── median_values.csv      # Feature medians for default inputs
-└── UCI_Credit_Card.csv    # Dataset
+- `app.py` — Home page
+- `pages/1_EDA.py` — Exploratory Data Analysis
+- `pages/2_Model_Performance.py` — Model comparison and metrics
+- `pages/3_Predict.py` — Live prediction interface
+- `xgb_fine_tuned.pkl` — Saved final model
+- `median_values.csv` — Feature medians for default inputs
+- `UCI_Credit_Card.csv` — Dataset
+
 ## Key Results
 
 | Model | Recall | FP | TP |
@@ -54,8 +53,12 @@ credit-card-default-prediction/
 7. Model interpretability — XGBoost feature importance
 
 ## How to Run Locally
-pip install streamlit xgboost scikit-learn pandas numpy matplotlib seaborn joblib lightgbm
-streamlit run app.py
+
+1. Install dependencies:
+    pip install streamlit xgboost scikit-learn pandas numpy matplotlib seaborn joblib lightgbm
+
+2. Run the app:
+    streamlit run app.py
 
 ## Live Demo
 [Link to be added after Streamlit Cloud deployment]
