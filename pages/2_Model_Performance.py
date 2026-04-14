@@ -44,9 +44,6 @@ importance_values = [0.334, 0.152, 0.043, 0.038, 0.030,
                      0.029, 0.028, 0.024, 0.024, 0.023]
 
 
-st.markdown("---")
-st.subheader("Confusion Matrix - XGBoost Tuned (Threshold 0.54)")
-
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.barh(features, importance_values, color='tan')
 ax.invert_yaxis()
